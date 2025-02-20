@@ -27,7 +27,7 @@ def predict_sentiment(text):
     return label_mapping[predicted_class]
 
 # Streamlit UI
-st.title("📊 Kenyan Stock News Sentiment Analysis")
+st.title("Kenyan Stock News Sentiment Analysis")
 
 st.markdown("""
 This tool analyzes the sentiment of **Kenyan stock news headlines** using a fine-tuned **FinBERT** model.  
